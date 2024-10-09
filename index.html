@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cristian Aguirre</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1> | CR | </h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">MIS PROYECTOS </a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.youtube.com/channel/UCD7N36pWkthkBEGlzjf2OSQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100036948336323" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/krvzhtn/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Cristian Aguirre</span></h2>
+                <p class="descripcion">Desarrollador Web en Aprendizaje</p>
+                <a href="#portfolio">Ir a ver Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/IMG_20240723_221312_655-1.webp" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Cristian Aguirre</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p class="parrafo_1-incio">Hola, Soy Cristian un estudiante de Programacion y Base de datos y espero sacar buenas notas, salir de cuarto medio y rendir una buena prueba PAES y seguir estudiando.</p>
+            <p class="parrafo_1-incio">Voy y espero rendir una buena prueba PAES para cumplir las expectativas de mi mamá y papá y tambien para poder estudiar lo que me gusta y no lo que me alcanze.</p>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">SOBRE MI</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-gamepad"></i></span>
+                <h4>Hobbies</h4>
+                <hr>
+               
+                <p>Mis Hobbies principalmente jugar en mi PC, escuchar musica y cuando tengo tiempo salir con amigos.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-music"></i></i></span>
+                <h4>Gusto Musical</h4>
+                <hr>
+               
+                <p>El estilo de musica que mas ecucho ultimamente es el reggaeton, y artstas urbanos de Chile</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-regular fa-futbol"></i></i></span>
+                <h4>Deporte Favorito</h4>
+                <hr>
+                
+                <p>Mi deporte favorito y en el que me enfoco mas es en el futbol, aveces puedo jugar otros pero el que mas me gusta es el futbol</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-plane"></i></i></span>
+                <h4>Intereses </h4>
+                <hr>
+                
+                <p>Uno de mis mayores intereses a futuro seria poder sacar una carrera profesional y tambien me gustaria viajar.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-user-plus"></i></i></span>
+                <h4>Metas Futuras</h4>
+                <hr>
+               
+                <p>Mi meta futura seria poder rendir una buena prueba PAES para poder estudiar lo que quiero que es Astronomia.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-crown"></i></i></i></span>
+                <h4>Asignatura Favorita</h4>
+                <hr>
+               
+                <p>Una de mis asignaturas favoritas es Programacion y Base de datos, pero tambien Educacion fisica, ya que me gustan las actividades fisicas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>HTMl</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>CSS</p>
+                <span class="porcentaje">75%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>JavaScript</p>
+                <span class="porcentaje">20%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion"> Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a target="_blank" href="/PracticaExamen/index.html"> <img src="img/plushstarr.png" alt="" class="imagen-examenes"></a>
+                <div class="info">
+                    <h4>Demostacion Nº1</h4>
+                    <p>Examen 1</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a target="_blank" href="/PracticaExamen2/index.html"> <img src="img/jamesconsulting.png" alt="" class="imagen-examenes"></a>
+                <div class="info">
+                    <h4>Demostracion Nº2</h4>
+                    <p>Examen 2</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a target="_blank" href="/PracticaExamen3/index.html"> <img src="img/modernizee.png" alt="" class="imagen-examenes"></a>
+                <div class="info">
+                    <h4>Demostracion Nº3</h4>
+                    <p>Examen 3</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a target="_blank" href="/PracticaExamen4/index.html"> <img src="img/easybayy.png" alt="" class="imagen-examenes"></a>
+                <div class="info">
+                    <h4>Demostracion Nº4</h4>
+                    <p>Examen 4</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a target="_blank" href="/PracticaExamen5/index.html"> <img src="img/yourwebsitee.png" alt="" class="imagen-examenes"></a>
+                <div class="info">
+                    <h4>Demostracion Nº5</h4>
+                    <p>Examen 5</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a target="_blank" href="/PracticaExamen6/index.html"> <img src="img/easybayy.png" alt="" class="imagen-examenes"></a>
+                <div class="info">
+                    <h4>Demostracion Nº6</h4>
+                    <p>Examen 6</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p class="nombre-parrafo-final">Cristian <span>Aguirre</span> - 2025</p>
+        <div class="redes">
+            <a href="https://www.youtube.com/channel/UCD7N36pWkthkBEGlzjf2OSQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100036948336323" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/krvzhtn/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
